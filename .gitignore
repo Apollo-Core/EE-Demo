@@ -10,3 +10,4 @@
 *.pdf
 *.jpg
 *.log
+/logging/logs/
