@@ -1,5 +1,7 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # EE-Demo
-Project used for a demo of the enactment.
+Project used for a demo of Apollo's application implementation when executed via the interactive GUI.
 
 ## Running the Demo.
 
