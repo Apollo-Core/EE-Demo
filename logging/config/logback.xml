@@ -18,13 +18,16 @@
 		</encoder>
 	</appender>
 
+	<logger name="io.netty" level="WARN">
+	</logger>
+
 	<logger
 		name="at.uibk.dps.ee.enactables.decorators.DecoratorTimingLog"
 		level="INFO" additivity="false">
 		<appender-ref ref="FUNCTION_LOG_TIME_FILE" />
 	</logger>
 
-	<root level="debug">
+	<root level="info">
 		<appender-ref ref="STDOUT" />
 	</root>
 </configuration>

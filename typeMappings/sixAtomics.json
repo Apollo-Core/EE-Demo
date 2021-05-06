@@ -1,9 +1,13 @@
 [
-  {"functionType" : "Addition",
-    "resources": [      
-      {"type": "Local",
-        "properties": {}
-      }
-      ]
-  }
+	{
+		"functionType": "Addition",
+		"resources": [
+			{
+				"type": "Serverless",
+				"properties": {
+					"Uri": "http://localhost:5055/run/?image=fedor89/addition"
+				}
+			}
+		]
+	}
 ]
