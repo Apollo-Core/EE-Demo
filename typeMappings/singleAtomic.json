@@ -3,9 +3,9 @@
 		"functionType": "Addition",
 		"resources": [
 			{
-				"type": "Serverless",
+				"type": "Local",
 				"properties": {
-					"Uri": "http://localhost:5055/run/?image=fedor89/addition"
+					"Image": "fedor89/addition"
 				}
 			}
 		]

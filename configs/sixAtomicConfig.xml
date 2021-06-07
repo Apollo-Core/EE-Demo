@@ -2,9 +2,7 @@
   <module class="at.uibk.dps.ee.control.modules.EnactmentAgentModule">
     <property name="pauseOnStart">false</property>
   </module>
-  <module class="at.uibk.dps.ee.docker.modules.LocalContainersModule">
-    <property name="portNumber">5055</property>
-  </module>
+  <module class="at.uibk.dps.ee.docker.modules.LocalContainersModule"/>
   <module class="at.uibk.dps.ee.io.modules.InputReaderFileModule">
     <property name="filePath">./inputData/sixAtomic.json</property>
   </module>
@@ -18,7 +16,8 @@
     <property name="updatePeriodMs">100</property>
   </module>
   <module class="at.uibk.dps.sc.core.modules.SchedulerModule">
-    <property name="schedulingMode">SingleOption</property>
+    <property name="schedulingMode">Random</property>
     <property name="mappingsToPick">1</property>
+    <property name="sizeThresholdKb">10</property>
   </module>
 </configuration>
