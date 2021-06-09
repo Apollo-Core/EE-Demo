@@ -1,14 +1,14 @@
 [
   {"functionType" : "Addition",
     "resources": [      
-      {"type": "Local",
+      {"type": "Demo",
         "properties": {}
       }
       ]
   },
     {"functionType" : "SumCollection",
     "resources": [      
-      {"type": "Local",
+      {"type": "Demo",
         "properties": {}
       }
       ]
