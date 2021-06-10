@@ -46,7 +46,7 @@ dependencies {
 	implementation 'com.github.Apollo-Core:EE-Control:master-SNAPSHOT'
     implementation 'com.github.Apollo-Core:SC-Core:main-SNAPSHOT'
 	implementation 'com.github.Apollo-Core:EE-Visualization:-SNAPSHOT'
-    implementation 'com.github.Apollo-core:ee-docker:master-SNAPSHOT'
+    implementation 'com.github.Apollo-core:EE-Docker:master-SNAPSHOT'
 }
 	
 	// dependency to Opt4J
