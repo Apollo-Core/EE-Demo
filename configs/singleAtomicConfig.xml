@@ -1,10 +1,6 @@
 <configuration>
-  <module class="at.uibk.dps.ee.control.modules.EnactmentAgentModule">
-    <property name="pauseOnStart">false</property>
-  </module>
-  <module class="at.uibk.dps.ee.docker.modules.ContainersModule">
-    <property name="portNumber">5055</property>
-  </module>
+  <module class="at.uibk.dps.ee.control.modules.EnactmentVerticleModule"/>
+  <module class="at.uibk.dps.ee.docker.modules.ContainersModule"/>
   <module class="at.uibk.dps.ee.io.modules.InputReaderFileModule">
     <property name="filePath">./inputData/inputSingleAtomic.json</property>
   </module>
@@ -23,5 +19,6 @@
   <module class="at.uibk.dps.sc.core.modules.SchedulerModule">
     <property name="schedulingMode">SingleOption</property>
     <property name="mappingsToPick">1</property>
+    <property name="sizeThresholdKb">10</property>
   </module>
 </configuration>

@@ -1,6 +1,6 @@
 <configuration>
-  <module class="at.uibk.dps.ee.control.modules.EnactmentAgentModule">
-    <property name="pauseOnStart">false</property>
+  <module class="at.uibk.dps.ee.control.modules.EnactmentVerticleModule">
+    <property name="pauseOnStart">true</property>
   </module>
   <module class="at.uibk.dps.ee.docker.modules.ContainersModule"/>
   <module class="at.uibk.dps.ee.io.modules.InputReaderFileModule">
@@ -21,5 +21,6 @@
   <module class="at.uibk.dps.sc.core.modules.SchedulerModule">
     <property name="schedulingMode">Random</property>
     <property name="mappingsToPick">1</property>
+    <property name="sizeThresholdKb">10</property>
   </module>
 </configuration>
