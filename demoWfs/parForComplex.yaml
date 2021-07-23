@@ -37,7 +37,7 @@ workflowBody:
           source: 1
         - name: "waitTimeIn"
           type: "number"
-          source: 2000
+          source: 2
         dataOuts:
         - name: "sum"
           type: "number"
@@ -71,7 +71,7 @@ workflowBody:
               source: 1
             - name: "waitTimeIn"
               type: "number"
-              source: 2000
+              source: 2
             dataOuts:
             - name: "sum"
               type: "number"
@@ -107,7 +107,7 @@ workflowBody:
                   source: 1
                 - name: "waitTimeIn"
                   type: "number"
-                  source: 2000
+                  source: 2
                 dataOuts:
                 - name: "sum"
                   type: "number"

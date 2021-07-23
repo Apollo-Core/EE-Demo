@@ -6,6 +6,9 @@
   <module class="at.uibk.dps.ee.io.modules.InputReaderFileModule">
     <property name="filePath">./inputData/parForComplex.json</property>
   </module>
+  <module class="at.uibk.dps.ee.io.modules.LoggingModule">
+    <property name="pathToConfigFile">./logging/config/logback.xml</property>
+  </module>
   <module class="at.uibk.dps.ee.io.modules.OutputPrinterModule"/>
   <module class="at.uibk.dps.ee.io.modules.SpecificationInputModule">
     <property name="filePathAfcl">./demoWfs/parForComplex.yaml</property>

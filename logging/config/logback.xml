@@ -27,7 +27,7 @@
 		<appender-ref ref="FUNCTION_LOG_TIME_FILE" />
 	</logger>
 
-	<root level="info">
+	<root level="debug">
 		<appender-ref ref="STDOUT" />
 	</root>
 </configuration>
