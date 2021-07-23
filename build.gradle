@@ -38,14 +38,14 @@ dependencies {
     implementation project (':EE-Visualization')
     implementation project (':EE-Docker')
 }else {
-	implementation 'com.github.Apollo-Core:EE-Core:master-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-Guice:main-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-Model:main-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-IO:main-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-Enactables:master-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-Control:master-SNAPSHOT'
-    implementation 'com.github.Apollo-Core:SC-Core:main-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-Visualization:-SNAPSHOT'
+	implementation 'com.github.Apollo-Core:EE-Core:preVertX'
+	implementation 'com.github.Apollo-Core:EE-Guice:preVertX'
+	implementation 'com.github.Apollo-Core:EE-Model:prevertx'
+	implementation 'com.github.Apollo-Core:EE-IO:preVertX'
+	implementation 'com.github.Apollo-Core:EE-enactables:preVertX'
+	implementation 'com.github.Apollo-Core:EE-Control:preVertX'
+    implementation 'com.github.Apollo-Core:SC-Core:preVertX'
+	implementation 'com.github.Apollo-Core:EE-Visualization:preVertX'
     implementation 'com.github.Apollo-core:EE-Docker:master-SNAPSHOT'
 }
 	
