@@ -40,13 +40,13 @@ dependencies {
   }else {
     implementation 'com.github.Apollo-Core:EE-Core:master-SNAPSHOT'
     implementation 'com.github.Apollo-Core:EE-Guice:main-SNAPSHOT'
-    implementation 'com.github.Apollo-Core:EE-Model:seqFor-SNAPSHOT'
-    implementation 'com.github.Apollo-Core:EE-IO:seqFor-SNAPSHOT'
-    implementation 'com.github.Apollo-Core:EE-Enactables:seqFor-SNAPSHOT'
-    implementation 'com.github.Apollo-Core:EE-Control:seqFor-SNAPSHOT'
-    implementation 'com.github.Apollo-Core:SC-Core:seqFor-SNAPSHOT'
-    implementation 'com.github.Apollo-Core:EE-Visualization:seqFor-SNAPSHOT'
-    implementation 'com.github.Apollo-core:EE-Docker:seqFor-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-Model:main-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-IO:main-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-Enactables:master-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-Control:master-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:SC-Core:main-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-Visualization:master-SNAPSHOT'
+    implementation 'com.github.Apollo-core:EE-Docker:vertx-SNAPSHOT'
   }
 
   // dependency to Opt4J
