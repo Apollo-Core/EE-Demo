@@ -1,8 +1,8 @@
 ---
-name: "simpleWhile"
+name: "single Atomic"
 dataIns:
-  - name: "input"
-    type: "number"
+  - name: "wf_coll"
+    type: "collection"
     source: "inputSource"
 workflowBody:
   - while:
@@ -10,36 +10,40 @@ workflowBody:
       dataIns:
         - name: "sum"
           type: "number"
-          source: "simpleWhile/input"            
+          source: 0            
       loopBody:
         - function:
-            name: "increment"
+            name: "sumUpFunction"
             type: "Addition"
             dataIns:
             - name: "firstSummand"
-              type: "number"
-              source: "while/sum"
+              type: "collection"
+              source: "single Atomic/wf_coll"
+              constraints:
+                - name: "element-index"
+                  value: while/counter
             - name: "secondSummand"
               type: "number"
-              source: 1
+              source: "while/sum"
             - name: "waitTimeIn"
               type: "number"
-              source: 1000              
+              source: 500            
             dataOuts: 
             - name: "sum"
-              type: "number"   
+              type: "number"
       condition:
         - data1: "while/counter"
-          data2: 5
+          data2: "single Atomic/wf_coll"
           type: "number"
           operator: "<"
           negation: "false"
-          combinedWith: "and"                 
+          combinedWith: "and"                    
       dataOuts:
         - name: "sum"
           type: "number"
-          source: "increment/sum" 
+          source: "sumUpFunction/sum" 
 dataOuts:
   - name: "overallOutput"
     type: "number"
     source: "while/sum"
+
