@@ -3,10 +3,7 @@
 		"functionType": "Addition",
 		"resources": [
 			{
-				"type": "Local",
-				"properties": {
-					"Image": "fedor89/addition"
-				}
+				"type": "Demo"
 			}
 		]
 	}
