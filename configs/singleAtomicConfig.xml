@@ -1,10 +1,7 @@
 <configuration>
   <module class="at.uibk.dps.ee.control.modules.EnactmentVerticleModule">
-    <property name="pauseOnStart">false</property>
+    <property name="pauseOnStart">true</property>
     <property name="deploymentNumber">8</property>
-  </module>
-  <module class="at.uibk.dps.ee.docker.modules.ContainersModule">
-    <property name="dockerManager">DockerApi</property>
   </module>
   <module class="at.uibk.dps.ee.io.modules.InputReaderFileModule">
     <property name="filePath">./inputData/inputSingleAtomic.json</property>
