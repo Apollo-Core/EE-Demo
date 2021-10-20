@@ -1,7 +1,18 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # EE-Demo
-Project used for a demo of Apollo's application implementation when executed via the interactive GUI.
+This repository provides the opportunity to quickly set up the Apollo Runtime system to observe the (visualized) orchestration of simple example workflows.
+
+## Demonstrations
+
+This project contains a series of demonstrations with varying prerequisites. The entry for each demonstration is annotated with a link to a readme containing more detailed setup instructions.
+
+Demonstration | Prerequisites | Readme Link
+--------------|---------------|-------------
+Basic Functionality and GUI | - Java (11+) <br> - Gradle | link
+
+
+## Prerequisites
 
 ## Running the Demo.
 
