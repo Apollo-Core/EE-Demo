@@ -37,13 +37,13 @@ cd EE-Demo
 2. Execute the *gradle build* command. This will download and configure all required dependencies:
 
 ```
-gradle build
+gradlew build
 ```
 
 2. a) [Optional] Execute the *gradle eclipse* command to configure an Eclipse project which can be directly imported from the directory you clone the repository into:
 
 ```
-gradle eclipse
+gradlew eclipse
 ```
 
 2. b) [Optional] In case you want to execute the project from Eclipse:
@@ -61,7 +61,7 @@ gradle eclipse
 1. Execute the *gradle run* command:
 
 ```
-gradle run
+gradlew run
 ```
 
 2. The *gradle run* command will open up the Apollo Configuration GUI, which is initially empty. To load the configuration of the basic demonstration, click on the *Load...* button and navigate load the configuration found at *[directory where you placed EE-Demo]/configs/BasicFunctionality.xml*:

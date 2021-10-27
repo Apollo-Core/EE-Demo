@@ -9,7 +9,7 @@ This project contains a series of demonstrations with varying prerequisites. The
 
 Demonstration | Prerequisites | Readme Link
 --------------|---------------|-------------
-Basic Functionality and GUI | - Java (11+) <br> - Gradle | link
+Basic Functionality and GUI | - Java (11+) <br> - Gradle | [Basic Functionality](https://github.com/Apollo-Core/EE-Demo/tree/master/documentation/BasicFunctionality)
 
 
 ## Prerequisites
