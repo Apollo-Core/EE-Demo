@@ -92,4 +92,4 @@ gradlew run
 <img src="../images/runEclipse.png" alt="Run from Eclipse" width="40%">
 </p>
 
-3. Click the *Run* button in the configuration GUI (same as step 3 in Option A) and then the *Play* button in the orchestration GUI (same as step 4 in Option B).
+3. Click the *Run* button in the configuration GUI (same as step 3 in Option A) and then the *Play* button in the orchestration GUI (same as step 4 in Option A).
