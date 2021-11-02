@@ -67,13 +67,29 @@ gradlew run
 2. The *gradle run* command will open up the Apollo Configuration GUI, which is initially empty. To load the configuration of the basic demonstration, click on the *Load...* button and navigate load the configuration found at *[directory where you placed EE-Demo]/configs/BasicFunctionality.xml*:
 
 <p align="center">
-<img src="../images/loadConfig.png" alt="Basic Functionality Enactment Graph" width="40%">
+<img src="../images/loadConfig.png" alt="Load configuration button" width="40%">
 </p>
 
 3. Click the *Run* button in the configuration GUI:
 
 <p align="center">
-<img src="../images/runConfig.png" alt="Basic Functionality Enactment Graph" width="40%">
+<img src="../images/runConfig.png" alt="Run button" width="40%">
+</p>
+
+4. Click the *Play* button to start the orchestration:
+
+<p align="center">
+<img src="../images/playButton.png" alt="Play Button" width="40%">
 </p>
 
 ### Option B: Running the demonstration from Eclipse:
+
+1. Make sure you executed steps 2. a) and 2 b) from the setup section.
+
+2. In Eclipse, open the *launches* folder inside the *EE-Demo* project, right-click the file *BasicFunctionality.launch*, and select *Run as -> Basic Functionality*:
+
+<p align="center">
+<img src="../images/runEclipse.png" alt="Run from Eclipse" width="40%">
+</p>
+
+3. Click the *Run* button in the configuration GUI (same as step 3 in Option A) and then the *Play* button in the orchestration GUI (same as step 4 in Option B).
