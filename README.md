@@ -7,9 +7,9 @@ This repository provides the opportunity to quickly set up the Apollo Runtime sy
 
 This project contains a series of demonstrations with varying prerequisites. The entry for each demonstration is annotated with a link to a readme containing more detailed setup instructions.
 
-Demonstration | Prerequisites | Readme Link
---------------|---------------|-------------
-Basic Functionality and GUI | - Java (11+) <br> - Gradle | [Basic Functionality](https://github.com/Apollo-Core/EE-Demo/tree/master/documentation/BasicFunctionality)
+Demonstration | Prerequisites | Readme Link | Youtube Link
+--------------|---------------|-------------| -------------
+Basic Functionality and GUI | - Java (11+) <br> - Gradle | [Basic Functionality](https://github.com/Apollo-Core/EE-Demo/tree/master/documentation/BasicFunctionality) | [Basic Functionality](https://www.youtube.com/watch?v=KFoT99tpJBk)
 
 
 ## Prerequisites

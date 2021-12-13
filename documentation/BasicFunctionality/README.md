@@ -2,6 +2,14 @@
 
 This demonstration provides the quickest and simplest way to run an application orchestration. This documentation details the steps necessary to run the demonstration and provides an explanation of Apollo's configuration GUI and orchestration visualization.
 
+--------------------------------------
+
+## Video
+The contents of this demonstration are also provided as a Youtube video (click the image):
+
+[![Watch the video](../images/thumbNailDemo.png)](https://www.youtube.com/watch?v=KFoT99tpJBk)
+
+
 ----------------------------------
 ## Prerequisites
 
